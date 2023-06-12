@@ -40,12 +40,13 @@ header .container {
 }
 
 .profile-name {
-    font-size: 2em;
+    font-size: 40px;
 }
 
 .profile-username {
     margin: 16px 0 32px;
-    font-size: 1.1em;
+    font-size: 30px;
+    color: var(--header-color);
 }
 
 .profile-link {
@@ -68,5 +69,25 @@ header .container {
 }
 
 .numbers-item h4 {
+    color: var(--header-color);
     font-size: .3em;
+}
+
+.bio-description {
+    width: 640px;
+}
+
+#bio {
+    
+    text-align: justify;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 10px;
+}
+
+.bio-description h4 {
+    color: var(--header-color);
+    font-size: 30px;
+    padding: 20px 10px;
 }
